@@ -6,29 +6,6 @@ import io.github.cdimascio.dotenv.Dotenv;
 
 public class ConsultarGemini {
 
-    // Prompt base para indicar la tarea
-//    private static final String PROMPT_BASE = """
-//Proporciona información breve y clara del cantante: %s.
-//
-//Responde únicamente con los siguientes datos:
-//- Nombre completo
-//- Fecha de nacimiento (y fecha de fallecimiento solo si aplica)
-//- Nacionalidad
-//- Tres canciones más representativas
-//
-//Formato de respuesta:
-//Nombre:
-//Nacimiento:
-//Fallecimiento:
-//Nacionalidad:
-//Canciones principales:
-//1.
-//2.
-//3.
-//
-//No agregues explicaciones adicionales ni texto extra.
-//""";
-
     private static final String PROMPT_BASE = """
             Devuelve información del cantante "%s" exclusivamente en formato JSON válido.
             
