@@ -22,37 +22,37 @@ Este proyecto fue desarrollado como práctica de integración entre servicios ex
 
 El proyecto sigue una estructura organizada en capas:
 
-Capa de presentación (Interacción por consola)
+* Capa de presentación (Interacción por consola)
 
-Capa de servicio (Lógica de negocio)
+* Capa de servicio (Lógica de negocio)
 
-Capa de acceso a datos (Persistencia / JDBC)
+* Capa de acceso a datos (Persistencia / JDBC)
 
-Integración externa (Consumo de API Gemini)
+* Integración externa (Consumo de API Gemini)
 
-Se aplican principios como:
+* Se aplican principios como:
 
-Separación de responsabilidades
+* Separación de responsabilidades
 
-Encapsulamiento
+* Encapsulamiento
 
-Manejo estructurado de excepciones
+* Manejo estructurado de excepciones
 
-Uso de variables de entorno para credenciales
+* Uso de variables de entorno para credenciales
 
 ## 🛠 Tecnologías Utilizadas
 
-Java
+- Java
 
-Maven
+- Maven
 
-JDBC
+- JDBC
 
-Base de datos relacional
+- Base de datos relacional
 
-API Gemini
+- API Gemini
 
-Git
+- Git
 
 ## 🔄 Flujo de Funcionamiento
 
