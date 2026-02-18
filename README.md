@@ -69,7 +69,7 @@ Los datos se guardan en la base de datos.
 Posteriormente pueden ser consultados desde la aplicación.
 
 ## 📂 Estructura del Proyecto
-
+~~~
 db-singers
 │
 ├── src
@@ -80,7 +80,7 @@ db-singers
 ├── pom.xml
 ├── .gitignore
 └── mvnw / mvnw.cmd
-
+~~~
 ## 🔐 Seguridad
 
 Las credenciales no se encuentran en el código fuente.
