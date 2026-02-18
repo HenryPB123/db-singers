@@ -101,9 +101,10 @@ AI_API_KEY=clave_api
 Esto evita exponer información sensible en el repositorio.
 
 ## 🚀 Ejecución
-~~~
+
 Clonar repositorio:
 
+````
 git clone https://github.com/HenryPB123/db-singers.git
 
 Entrar al proyecto:
@@ -117,7 +118,7 @@ mvn clean package
 Ejecutar:
 
 java -jar target/db-singers.jar
-~~~
+````
 
 ## 🧪 Posibles Mejoras
 
@@ -149,6 +150,6 @@ Buenas prácticas básicas de backend en Java.
 
 ## 👨‍💻 Autor
 
-Henry Peralta Briceño
+#### Henry Peralta Briceño
 Desarrollador Backend en formación
 
